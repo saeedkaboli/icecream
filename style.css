@@ -173,7 +173,13 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
+        /* border: 1px solid ; */
+        transition: 1s;
+        cursor: pointer;
     
+    }
+    #Menu>li:hover{
+        color: #fff;
     }
     #LogIn{
         width: 20%;
